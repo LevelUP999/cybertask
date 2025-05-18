@@ -15,7 +15,7 @@ export default defineConfig(({ mode }) => ({
     mode === 'development' &&
     componentTagger(),
   ].filter(Boolean),
-  base: process.env.NODE_ENV === 'production' ? '/cyber-todo-nexus/' : '/',
+  base: process.env.NODE_ENV === 'production' ? '/cybertask/' : '/',
   resolve: {
     alias: {
       "@": path.resolve(__dirname, "./src"),

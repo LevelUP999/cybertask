@@ -27,7 +27,7 @@ const App = () => (
           <TodoProvider>
             <Toaster />
             <Sonner />
-            <BrowserRouter basename={process.env.NODE_ENV === 'production' ? '/cyber-todo-nexus' : '/'}>
+            <BrowserRouter basename={process.env.NODE_ENV === 'production' ? '/cybertask' : '/'}>
               <Routes>
                 <Route
                   path="/"
